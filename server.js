@@ -4,6 +4,9 @@ const bodyParser = require("body-parser");
 const app = express();
 app.use(bodyParser.json());
 
+
+// ahhhh 
+
 const users = [
     { username: "user1" },
     { username: "user2" },
@@ -14,6 +17,7 @@ const events = [
     {
         name: "Meeting",
         description: "Team discussion",
+
         date: "2025-03-20",
         time: "10:00 AM",
         category: "Meetings",
